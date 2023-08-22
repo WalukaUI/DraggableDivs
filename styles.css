@@ -1,0 +1,19 @@
+body{
+    background-color: azure;
+    margin: 0;
+}
+.container{
+    background-color: #333;
+    padding: 10px;
+}
+.draggable{
+    background-color: rgb(230, 162, 74);
+    padding: 10px;
+    border: 1px solid black;
+    cursor: move;
+    width: 200px;
+}
+.draggable.dragging{
+    background-color: aqua;
+    opacity: 0.5;
+}
